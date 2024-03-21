@@ -14,7 +14,8 @@ body {
 }
 
 .para {
-  font-size: 22px;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .confirm {
@@ -27,6 +28,7 @@ body {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  border: solid 2px black;
 }
 
 .child {
@@ -39,4 +41,22 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+
+/* Solution From Doy */
+.confirm{
+  background-color: green;
+  color: white;
+}
+
+
+.text.child{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.small-para{
+  font-size: 18px;
+  font-weight: bold;
 }
